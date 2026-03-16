@@ -1,10 +1,8 @@
-Use Case 3 – Centralized Room Inventory Management
+Use Case 1 – Application Entry & Welcome Message
 Description
 
-This use case introduces a centralized inventory management mechanism for hotel rooms.
+This use case represents the starting point of the Hotel Booking Management System.
 
-A dedicated class RoomInventory is used to maintain the availability of different room types in a single location. This class acts as the single source of truth for room availability in the hotel system.
+The application begins execution from the main() method and displays a welcome message to confirm that the system has started successfully. This establishes the basic structure of the application and verifies that the environment and program setup are working correctly.
 
-Room pricing and characteristics are still obtained from the room classes (SingleRoom, DoubleRoom, and SuiteRoom). This ensures that room information and inventory management remain separate responsibilities, improving maintainability and reducing duplication.
-
-At this stage, the system only demonstrates how room availability is stored and retrieved using a centralized structure. No booking, reservation, or search functionality is implemented yet.
+At this stage, the system does not include any room management, booking, or inventory logic. The focus is only on creating a clear and predictable application entry point.
